@@ -1,0 +1,25 @@
+nav {
+	position: absolute;
+	top:12px;
+	right:30px;
+}
+nav a:link, a:visited, a:active {
+    color: #2a2a2a;
+    font-family: arial, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-10px;
+}
+
+#menu {
+	margin-right:8px;
+	margin-left:8px;
+}
+#notification{
+    margin-right: 10px;
+    margin-left: 8px;
+
+}
