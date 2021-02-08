@@ -23,3 +23,15 @@ nav a:link, a:visited, a:active {
     margin-left: 8px;
 
 }
+.main_section {
+	display:block;
+	margin: auto;
+	text-align:center;
+	padding-top: 14%;
+}
+
+.main_section img {
+	width: 270px;
+	height: 95px;
+	margin:5px;
+}
