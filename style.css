@@ -19,21 +19,6 @@ nav a:link, a:visited, a:active {
 	
 }
 
-.search {
-	width: 570px;
-	height: 28px;
-	border-top: 1px solid gray;
-	border-bottom: 1px solid  gray;;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
-	padding-right: 50px;
-	font: 16px;
-	text-indent:5px;
-	background-repeat:no-repeat;
-	border-radius: 20px;
-	padding: 20px 50px 20px 50px;
-	
-	}
 
 #menu {
 	margin-right:8px;
@@ -56,10 +41,50 @@ nav a:link, a:visited, a:active {
 	text-align:center;
 	padding-top: 14%;
 }
+.main_section{
+	flex: 1;
+}
 
-.logo {
+ .main_section .logo {
+	 display: block;
+	 margin: auto;
+	margin-top: 5;
 	width: 270px;
 	height: 95px;
-	margin:5px;
+}
+.inputs{
+	width: 580px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+}
+.inputs 
+.search {
+	display: block;
+	width: 100%;
+	border: 1px solid gray;
+	padding: 13px;
+	padding-left: 50px;
+	font-size: 18px;
+	background-repeat:no-repeat;
+	border-radius: 25px;
+	margin-top: 20px;
+	
+	}
+ .inputs .search-icon{
+	width: 20px;
+	top: 13px;
+	left: 14px;
+	position: absolute;
+	
+	
+
+}
+.inputs .vs-icon{
+	width: 25px;
+	top: 13px;
+	right: 24px;
+	position: absolute;
+
 }
 
